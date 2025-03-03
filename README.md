@@ -15,6 +15,9 @@ This is repo for all our group assignments
 
 Assignment_1 
 
+ Write a C program that calculates the average of marks got by a student in three subjects ie Physics, Chemistry, Math...assume for each subject, four different tests were conducted; assignment, Course work, mid term and end of term exams.
+
+
 ### Screenshot 1
 ![Description](screenshots/Screenshot_2025-03-03_222628.png)
 
