@@ -1,8 +1,8 @@
 Group Members
 1. SHIV RAJESH JADHAV  Bsci Computer Science
 2. OMAR 
-3.
-4.
+3. Jenny Namutebi
+4.Aisha Nakidde
 DATA STRUCTURES AND ALGORITHMS ASSIGNMENTS
 
 This is repo for all our group assignments
