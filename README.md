@@ -28,3 +28,7 @@ Assignment_1
 ![Description](screenshots/Screenshot_2025-03-03_222753.png)
 
 Assignment_2
+Write a C program that accepts a group of N domestic animals and a group of X wild animals. Your program should print N + X animals after entering each group
+
+### Screenshot 1
+![output assignment 2](https://github.com/user-attachments/assets/9073ca7d-56f5-41f2-bf5f-ddaa863caeab)
