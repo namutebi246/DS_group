@@ -16,12 +16,12 @@ This is repo for all our group assignments
 Assignment_1 
 
 ### Screenshot 1
-![Description](screenshots/Screenshot_2025-03-03_222628.png)
+![Description](screenshots/Screenshot 2025-03-03 222628.png)
 
 ### Screenshot 2  
-![Description](screenshots/Screenshot_2025-03-03_222729.png)
+![Description](screenshots/Screenshot 2025-03-03 222729.png)
 
 ### Screenshot 3  
-![Description](screenshots/Screenshot_2025-03-03_222753.png)
+![Description](screenshots/Screenshot 2025-03-03 222753.png)
 
 Assignment_2
