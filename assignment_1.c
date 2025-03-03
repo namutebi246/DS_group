@@ -17,7 +17,7 @@ int main()
     printf("Enter physics marks\n");
     printf("Enter marks for assignment\n");
     scanf("%d", &n_assignment);
-    printf("Enter marks forcourse_work\n");
+    printf("Enter marks for course_work\n");
     scanf("%d",&n_course_work);
     printf("Enter marks for mid_term\n");
     scanf("%d", &n_mid_term);
@@ -27,7 +27,7 @@ int main()
     printf("Enter chemistry marks\n");
     printf("Enter marks for assignment\n");
     scanf("%d", &m_assignment);
-    printf("Enter marks forcourse_work\n");
+    printf("Enter marks for course_work\n");
     scanf("%d",&m_course_work);
     printf("Enter marks for mid_term\n");
     scanf("%d", &m_mid_term);
@@ -37,7 +37,7 @@ int main()
     printf("Enter math marks\n");
     printf("Enter marks for assignment\n");
     scanf("%d", &x_assignment);
-    printf("Enter marks forcourse_work\n");
+    printf("Enter marks for course_work\n");
     scanf("%d",&x_course_work);
     printf("Enter marks for mid_term\n");
     scanf("%d", &x_mid_term);
