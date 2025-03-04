@@ -1,8 +1,9 @@
 Group Members
 1. SHIV RAJESH JADHAV  Bsci Computer Science
 2. Bablo Muammar Omar
-3. Jenny Namutebi
+3. Jane Francis Namutebi
 4. Aisha Nakidde
+5. Apio Cynthia Penelope
    
 DATA STRUCTURES AND ALGORITHMS ASSIGNMENTS
 
