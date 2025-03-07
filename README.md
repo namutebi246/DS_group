@@ -1,5 +1,5 @@
 ## Group Members 
-1. SHIV RAJESH JADHAV       X
+1. SHIV RAJESH JADHAV       
 2. Bablo Muammar Omar
 3. Jane Francis Namutebi
 4. Aisha Nakidde
@@ -11,7 +11,7 @@ This is repo for all our weekly group assignments from the Data Structures and A
 
 ## Table of Contents (Please click on the links below for easy navigation.)
 
---[Introduction](##Introduction to Data Structures and Algorithms)
+- [Introduction](##introduction to Data Structures and Algorithms)
 
 
 
