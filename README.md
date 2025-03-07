@@ -1,36 +1,42 @@
-Group Members
-1. SHIV RAJESH JADHAV  Bsci Computer Science
+## Group Members 
+1. SHIV RAJESH JADHAV       X
 2. Bablo Muammar Omar
 3. Jane Francis Namutebi
 4. Aisha Nakidde
 5. Apio Cynthia Penelope
    
-DATA STRUCTURES AND ALGORITHMS ASSIGNMENTS
+### DATA STRUCTURES AND ALGORITHMS ASSIGNMENTS
 
-This is repo for all our group assignments
+This is repo for all our weekly group assignments from the Data Structures and Algorithms Course unit.
+
+## Table of Contents (Please click on the links below for easy navigation.)
+
+--[Introduction](##Introduction to Data Structures and Algorithms)
 
 
 
-## Output Screenshots
+**26th-02-2025**
 
-26th-02-2025
 
-Assignment_1 
+## Introduction to Data Structures and Algorithms
+
+
+### Assignment_1 
+(Files can be found in the (Introduction/) directory in the repo)
 
  Write a C program that calculates the average of marks got by a student in three subjects ie Physics, Chemistry, Math...assume for each subject, four different tests were conducted; assignment, Course work, mid term and end of term exams.
 
+## Output Screenshots
 
 ### Screenshot 1
-![Description](screenshots/Screenshot_2025-03-03_222628.png)
+![Screen 1](screenshots/Average_marks1.png)
 
 ### Screenshot 2  
-![Description](screenshots/Screenshot_2025-03-03_222729.png)
+![Screen 2](screenshots/Average_marks2.png)
 
-### Screenshot 3  
-![Description](screenshots/Screenshot_2025-03-03_222753.png)
 
-Assignment_2
+### Assignment_2
 Write a C program that accepts a group of N domestic animals and a group of X wild animals. Your program should print N + X animals after entering each group
 
 ### Screenshot 1
-![output assignment 2](https://github.com/user-attachments/assets/9073ca7d-56f5-41f2-bf5f-ddaa863caeab)
+![output assignment 2](screenshots/Merge_array.png)
