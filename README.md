@@ -60,7 +60,7 @@ Your program should print N + X animals after entering each group
 
 ---
 ## **📅 04th March 2025** 
-## 📝 **Assignment 3** 
+### **Assignment 3**
 Write an algorithm for a program that swaps two numbers and the pseudo code for this program.
 
 ### 🖥 **Algorithm**  
