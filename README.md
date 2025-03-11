@@ -96,7 +96,7 @@ BEGIN
 END
 
 FUNCTION swap (POINTER x, POINTER y)
-    TEMP <- Value at x
+    LOC1 <- Value at x
     Value at x <- Value at y
-    Value at y <- TEMP
+    Value at y <- LOC!
 END FUNCTION
