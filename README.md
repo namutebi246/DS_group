@@ -56,3 +56,38 @@ Your program should print N + X animals after entering each group
 
 #### **Output Screenshot**  
 ![Output Assignment 2](screenshots/Merge_array.png)  
+
+### **Assignment 3**
+Write an algorithm for a program that swaps two numbers and the pseudo code for this program.
+
+**Soln: Using C programing pointers**
+**ALGORITHM**
+Step1; START
+Step 2; Declare two integer variables a and b.
+STEP 3; Ask user to input the valus for a and b.
+     -> Display a and b before swapping.
+STEP 4; Declare function swap (int *x, int *y) to swap values using pointers.
+     -> Store *x 'Value of a' in a temporary variable 'temp'.
+     -> Assign *x = *y 'Swap values of b into a'.
+     -> Assign *y = temp 'Assign stored values of a into b'.
+STEP 5; Call the swap function passing the address of a and b.
+STEP 6; Print values after swapping.
+STEP 7; END.
+
+**PSEUDO CODE FOR THE PROGRAM**
+Step 1; Declare a, b as integers.
+Step 2; PRINT "Enter the value of a"
+      ->INPUT a.
+      PRINT "Enter the value of b"
+      ->INPUT b.
+      PRINT "Before swapping, a is 'a', b is 'b'".
+Step 3; Call swap (address of a, address of b).
+Step 4; PRINT ""After swappin: a= ",a "b=",b.
+END
+
+FUNCTION swap (POINTER x, POINTRR y)
+    TEMP <-    Value at x.
+    Value at x <-Value at y.
+    Value at y <- Temp.
+END FUNCTION.
+      
