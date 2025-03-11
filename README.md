@@ -18,7 +18,8 @@ This repository contains all our weekly group assignments for the **Data Structu
 
   - [Introduction to Data Structures and Algorithms](#introduction-to-data-structures-and-algorithms)  
   - [Assignment 1](#assignment-1)  
-  - [Assignment 2](#assignment-2)  
+  - [Assignment 2](#assignment-2)
+  - [Assignment 3](#assignment-3)  
   - [Output Screenshots](#output-screenshots)  
 
 </details>
@@ -57,37 +58,45 @@ Your program should print N + X animals after entering each group
 #### **Output Screenshot**  
 ![Output Assignment 2](screenshots/Merge_array.png)  
 
-### **Assignment 3**
+---
+## **📅 04th March 2025** 
+## 📝 **Assignment 3: Swapping Two Numbers Using Pointers** 
 Write an algorithm for a program that swaps two numbers and the pseudo code for this program.
 
-**Soln: Using C programing pointers**
-**ALGORITHM**
-Step1; START
-Step 2; Declare two integer variables a and b.
-STEP 3; Ask user to input the valus for a and b.
-     -> Display a and b before swapping.
-STEP 4; Declare function swap (int *x, int *y) to swap values using pointers.
-     -> Store *x 'Value of a' in a temporary variable 'temp'.
-     -> Assign *x = *y 'Swap values of b into a'.
-     -> Assign *y = temp 'Assign stored values of a into b'.
-STEP 5; Call the swap function passing the address of a and b.
-STEP 6; Print values after swapping.
-STEP 7; END.
+### 🖥 **Algorithm**  
 
-**PSEUDO CODE FOR THE PROGRAM**
-Step 1; Declare a, b as integers.
-Step 2; PRINT "Enter the value of a"
-      ->INPUT a.
-      PRINT "Enter the value of b"
-      ->INPUT b.
-      PRINT "Before swapping, a is 'a', b is 'b'".
-Step 3; Call swap (address of a, address of b).
-Step 4; PRINT ""After swappin: a= ",a "b=",b.
+1. **START**  
+2. Declare two integer variables `a` and `b`.  
+3. Ask the user to input values for `a` and `b`.  
+   - Display `a` and `b` before swapping.  
+4. Declare function `swap(int *x, int *y)` to swap values using pointers:  
+   - Store `*x` (value of `a`) in a temporary variable `LOC1`.  
+   - Assign `*x = *y` (swap value of `b` into `a`).  
+   - Assign `*y = LOC1` (assign stored value of `a` into `b`).  
+5. Call the `LOC1` function, passing the addresses of `a` and `b`.  
+6. Print values after swapping.  
+7. **END**  
+
+---
+
+### 🖥 **Pseudo Code**  
+
+```plaintext
+BEGIN
+  DECLARE a, b as integers
+  PRINT "Enter the value of a"
+  INPUT a
+  PRINT "Enter the value of b"
+  INPUT b
+  PRINT "Before swapping, a = ", a, " b = ", b
+
+  CALL swap(address of a, address of b)
+
+  PRINT "After swapping: a = ", a, " b = ", b
 END
 
-FUNCTION swap (POINTER x, POINTRR y)
-    TEMP <-    Value at x.
-    Value at x <-Value at y.
-    Value at y <- Temp.
-END FUNCTION.
-      
+FUNCTION swap (POINTER x, POINTER y)
+    TEMP <- Value at x
+    Value at x <- Value at y
+    Value at y <- TEMP
+END FUNCTION
