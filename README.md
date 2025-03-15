@@ -7,7 +7,8 @@ This repository contains all our weekly group assignments for the **Data Structu
 2. **Bablo Muammar Omar**  
 3. **Jane Francis Namutebi**  
 4. **Aisha Nakidde**  
-5. **Apio Cynthia Penelope**  
+5. **Apio Cynthia Penelope**
+6. **Nsimbi Ronald**  
 
 ---
 
@@ -20,7 +21,8 @@ This repository contains all our weekly group assignments for the **Data Structu
   - [Assignment 1](#assignment-1)  
   - [Assignment 2](#assignment-2)
   - [Assignment 3](#assignment-3)  
-  - [Output Screenshots](#output-screenshots)  
+  - [Output Screenshots](#output-screenshots)
+  - [Assignment 4](Introduction/quadratic_algorithm.txt) 
 
 </details>
 
@@ -81,7 +83,7 @@ Write an algorithm for a program that swaps two numbers and the pseudo code for 
 
 ### 🖥 **Pseudo Code**  
 
-```plaintext
+plaintext
 BEGIN
   DECLARE a, b as integers
   PRINT "Enter the value of a"
@@ -100,3 +102,11 @@ FUNCTION swap (POINTER x, POINTER y)
     Value at x <- Value at y
     Value at y <- LOC!
 END FUNCTION
+
+## 📅 15th March 2025
+### **Assignment 4**
+**Task:**  
+Derive the program steps for a quadratic time complexity algorithm.
+
+**Solution:**  
+The explanation can be found in [`Assignment_4`](Introduction/quadratic_algorithm.txt).
