@@ -1,0 +1,154 @@
+######Algorithms to be used and their respective time complexities.#######
+1) An algorithm for user-input-Based First element retrieval-> Constant time complexity
+2) An algorithm to find the sum of the elements of an array -> Linear time complexity
+3) An algorithm to pair elements of an array-> Quadratic time complexity
+4) An algorithm for a program that carries out a binary search->Logarithmic time complexity
+
+
+*******************Program #1**********************
+=#Algorithm for directly using an element in an array#=
+Step1: START
+Step2: Declare a fixed size of array
+Step3: Ask user to input the first element
+Step4: Retrieve and print the first element
+Step5: END
+
+Program step for Algorithm 1
+
+------------------------------------------------
+Step |  Operation                       | Count |
+------------------------------------------------|
+1    |  Declare array(int arr[1])       |  -> 1 |
+2    |  Print message(printf)           |  -> 1 |
+3    |  User input(Scanf)               |  -> 1 |
+4    |  Function call(firstElement(arr))|  -> 1 |
+5    |  Access & print arr[0]           |  -> 1 |
+------------------------------------------------
+ TOTAL COUNT                               -> 5
+
+ANALYSIS FOR USER-INPUT BASED FIRST ELEMENT RETRIEVAL
+-Direct accessing arr[0] -> Always takes the same time regardless of the user input
+-User input is a single operation -> It does not grow with n
+
+
+
+
+*******************Program #2**********************
+=#Algorithm to find the sum of elements in an array#=
+STEP1: START
+STEP2: Ask the user to enter the size of the array(n)
+STEP3: If n == 0, print "Array is empty" and exit
+STEP4: Declare an array arr[n]
+STEP5: Ask the user to input n elements, storing them in arr
+STEP6: initialize sum = 0.
+STEP7: Loop through the array
+     ->Add each element to sum.
+STEP8: Print the total sum
+STEP9: END
+
+Program step for Algorithm 2 (Linear time complexity)
+-------------------------------------------------
+Step  |   Operation                       | Count|
+------|-----------------------------------|------|
+1     |  Declare n                        |  -> 1|
+2     |  Print "Enter size"               |  -> 1|
+3     |  User input (scanf)               |  -> 1|
+4     |  Check if n==0                    |  -> 1|
+5     |  Print "Array is empty" if (n==0) |  -> 1|
+6     |  Declare array arr[n]             |  -> 1|
+7     |  Print "Enter elements"           |  -> 1|
+8     |  Loop for user input(for loop)    |  -> n|
+9     |  Declare sum                      |  -> 1|
+10    |  Loop for sum calculation(for loop)  -> n|
+11    |  Print final sum                  |  -> 1|
+-------------------------------------------------
+Total steps                               -> 8+2n 
+
+ANALYSIS FOR FINDING THE SUM OF ELEMENTS IN AN ARRAY
+-The sum of elements in an array requires visiting each element once
+- This means we must use a loop to iterate through all the elements, making it O(n)
+
+
+
+
+**********************Program #3**********************
+=#Algorithm to find all pairs in an array#=
+STEP1: START
+STEP2: Ask user to enter the size of the array(n)
+STEP3: if n <= 1, print "Not enough elements to form pairs" and exit
+STEP4: Declare an array of size n
+STEP5: Ask the user to enter n elements
+STEP6: Loop through the array
+    -> For each element, loop through the remaining elements
+    -> Print all possible pairs 
+STEP7: END
+
+Program step for algorithm 3( Quadratic time complexity)
+
+--------------------------------------------------------------------------------
+Step     |   Operation                                             |  Count     |
+---------|---------------------------------------------------------|------------|
+1        | Declare n                                               | -> 1       |
+2        | Print "Enter size"                                      | -> 1       |
+3        | User input(scanf) for size                              | -> 1       |
+4        | Check if n<= 1                                          | -> 1       |
+5        | Print "not enough elements" (if applicable)             | -> 1       |
+6        | Declare arr[n]                                          | -> 1       |
+7        | Print "Enter elements"                                  | -> 1       |
+8        | Loop for user input (for i=0 to n-1)                    | -> 1       |
+9        | print "All pairs in the array:"                         | -> 1       |
+10       | Nested loop for pairs(for i=0 to n-1, for j=i+1 to n-1) | -> n(n-1)/2|
+11       | Print each pair                                         | -> n(n-1)/2|
+--------------------------------------------------------------------------------
+Total count                                                        -> n2
+
+##ANALYSIS FOR CALCULATION OF FINDING ALL PAIRS O(n2)
+-The main time consuming part is the nested loop that forms all pairs
+-Each pair (arr[i], arr[j]) is printed exactly once
+
+
+
+
+****************************Program #4*************************
+=#Algorith that carries out a binary search on a sorted array#=
+STEP1: START
+STEP2: Ask user to enter the size of the array
+STEP3: if n==0, print "Array is empty" and exit 
+STEP4: Declare an array of size n
+STEP5: Ask the user to enter n sorted elements
+STEP6: Ask the user to for the target value to search
+STEP7: Perform binary search
+     ->Initialize low = 0, high = n-1.
+     ->Repeat while low <= high
+     ->Compute mid = (low + high)/2
+     ->If arr[mid] == target, print "Found and exit"
+     ->If arr[mid] < target, set low = mid + 1
+     ->If arr[mid] > target, set high = mid -1
+STEP8: If not found, print "Element not found"
+STEP9: END
+
+Program step for algorithm 4(Logarithmic time complexity)
+
+--------------------------------------------------------------------
+Step    | Operation                                    | Count     |
+--------|----------------------------------------------|-----------|
+1       | Declare n                                    | -> 1      |
+2       | Print "Enter size"                           | -> 1      |
+3       | User input (scanf) for size                  | -> 1      | 
+4       | check if n==0                                | -> 1      |
+5       | print "Array is empty" (if applicable)       | -> 1      |
+6       | Declare arr[n]                               | -> 1      |
+7       | print "Enter sorted elements"                | -> 1      |
+8       | Loop for user input (for i=0 to n-1)         | -> 1      |
+9       | Print "Enter search element"                 | -> 1      | 
+10      | User input for search target                 | -> 1      |
+11      | Binary search loop(halving each iteration)   | -> log2(n)|
+12      | Check arr[mid] == target (inside loop)       | -> log2(n)|
+13      | Update low or high                           | -> log2(n)|
+14      | Print result                                 | -> 1      |
+--------------------------------------------------------------------
+Total step                                             ->O(logn)
+
+#ANALYSIS FOR CALCULATION OF BINARY SEARCH
+-Binary search halves the search space each time
+-the number of times the loop runs is at most log2(n)
