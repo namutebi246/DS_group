@@ -105,8 +105,9 @@ Write an algorithm for a program that swaps two numbers and the pseudo code for 
       Value at x <- Value at y
       Value at y <- LOC1
   END FUNCTION
-</details>
 ```
+</details>
+
 ---
 ## **📅 15th March 2025**
 ### **Assignment 4**
@@ -142,4 +143,5 @@ The explanation can be found in [`Assignment_4`](Algorithms/quadratic_algorithm.
               If arr[j] > arr[j+1]: 
                   Swap arr[j] and arr[j+1]
       End Function
+  ```
 </details>
