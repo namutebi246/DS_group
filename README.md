@@ -65,6 +65,8 @@ Your program should print N + X animals after entering each group
 ### **Assignment 3**
 Write an algorithm for a program that swaps two numbers and the pseudo code for this program.
 
+**Please click here to expand**
+👇
 <details>
   <summary>Algorithm and Pseudo Code</summary>
   
@@ -115,9 +117,11 @@ Write an algorithm for a program that swaps two numbers and the pseudo code for 
 Derive the program steps for a quadratic time complexity algorithm.
 
 **Solution:**  
-The explanation can be found in [`Assignment_4`](Algorithms/quadratic_algorithm.txt).
+The file can be found in [`Assignment_4`](Algorithms/quadratic_algorithm.txt).
+
 **Please click here to expand**
 👇
+
 <details>
   <summary>Quadratic Time Complexity (O(n²))</summary>
   
