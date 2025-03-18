@@ -109,4 +109,4 @@ END FUNCTION
 Derive the program steps for a quadratic time complexity algorithm.
 
 **Solution:**  
-The explanation can be found in [`Assignment_4`](Introduction/quadratic_algorithm.txt).
+The explanation can be found in [`Assignment_4`](Algorithm/quadratic_algorithm.txt).
