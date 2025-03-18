@@ -46,10 +46,10 @@ Each subject has four tests:
 
 ### **Output Screenshots**  
 #### **Screenshot 1**  
-![Screen 1](screenshots/Average_marks1.png)  
+![Screen 1](Introduction/screenshots_intro/Average_marks1.png)  
 
 #### **Screenshot 2**  
-![Screen 2](screenshots/Average_marks2.png)  
+![Screen 2](Introduction/screenshots_intro/Average_marks2.png)  
 
 ---
 
