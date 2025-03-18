@@ -116,7 +116,8 @@ Derive the program steps for a quadratic time complexity algorithm.
 
 **Solution:**  
 The explanation can be found in [`Assignment_4`](Algorithms/quadratic_algorithm.txt).
-
+**Please click here to expand**
+👇
 <details>
   <summary>Quadratic Time Complexity (O(n²))</summary>
   
