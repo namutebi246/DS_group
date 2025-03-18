@@ -106,3 +106,39 @@ Write an algorithm for a program that swaps two numbers and the pseudo code for 
       Value at y <- LOC1
   END FUNCTION
 ```
+---
+## **📅 15th March 2025**
+### **Assignment 4**
+**Task:**  
+Derive the program steps for a quadratic time complexity algorithm.
+
+**Solution:**  
+The explanation can be found in [`Assignment_4`](Algorithms/quadratic_algorithm.txt).
+
+<details>
+  <summary>Quadratic Time Complexity (O(n²))</summary>
+  
+  **Quadratic time complexity O(n²)** occurs when an algorithm's execution time grows proportionally to the square of the input size (n). This often happens in algorithms that involve nested loops, where each element is compared or processed multiple times.
+
+  ### Example: Bubble Sort Algorithm
+
+  To illustrate O(n²) complexity, consider Bubble Sort, which sorts an array by repeatedly swapping adjacent elements if they are in the wrong order.
+
+  #### Steps of the Bubble Sort Algorithm:
+  
+  1. Start with an unsorted array of size n.
+  2. Loop through the array (i = 0 to n-1) to ensure all elements are sorted.
+  3. For each pass, compare adjacent elements (j = 0 to n-i-1):
+     - If `arr[j] > arr[j+1]`, swap them.
+  4. Repeat until no swaps are needed, meaning the array is sorted.
+
+  #### Pseudocode for Bubble Sort:
+
+  ```text
+  Function BubbleSort(arr[], n):
+      For i from 0 to n-1:
+          For j from 0 to n-i-1:
+              If arr[j] > arr[j+1]: 
+                  Swap arr[j] and arr[j+1]
+      End Function
+
