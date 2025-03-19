@@ -24,6 +24,10 @@ This repository contains all our weekly group assignments for the **Data Structu
   - [Assignment 3](#assignment-3)   
   - [Assignment 4](#assignment-4)
   - [Assignment 5](#assignment-5)
+  - [Assignment 6](#assignment-6)
+  - [Assignment 7](#assignment-7)
+
+
 
 </details>
 
@@ -112,7 +116,7 @@ Write an algorithm for a program that swaps two numbers and the pseudo code for 
 </details>
 
 ---
-## **📅 15th March 2025**
+## **📅 05th March 2025**
 ### **Assignment 4**
 
 **Quadratic Time Complexity**
@@ -335,3 +339,33 @@ The sample code files can be found in [`Assignment 5`](Algorithms/sample_code).
 This README outlines the algorithms used, the steps involved, and their respective time complexities. Each program demonstrates how different algorithms operate and the impact of input size on execution time. The time complexities range from constant time (O(1)) to quadratic time (O(n²)), providing a clear example of different algorithmic performance.
 
 </details>
+
+---
+## **📅 06th March 2025**
+
+📁 *Files can be found in the [`Arrays/`](Arrays/) directory in the repo.*
+
+### **Assignment 6**
+ **Traversing an array**
+ 
+ **Task:**
+ Write a C/C++/JAVA code showing how to traverse an array.
+
+*Click here to open the program file 
+The file can be found in [`Traversing Arrays`](Arrays/Traversing_array.c)*
+
+ #### **Output Screenshot**  
+![Output Assignment 2](Arrays/screenshots_arrays/screenshot_traverse_arrays.jpg)
+
+---
+### **Assignment 7**
+ **Insertion into an array**
+ 
+ **Task:**
+ Write a C/C++/JAVA code showing how to insert an item into an array.
+
+*Click here to open the program file 
+The file can be found in [`Insertion Arrays`](Arrays/Insert_arrays.c)*
+
+ #### **Output Screenshot**  
+![Output Assignment 2](Arrays/screenshots_arrays/screenshot_insert_arrays.jpg) 
