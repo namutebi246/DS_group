@@ -26,6 +26,7 @@ This repository contains all our weekly group assignments for the **Data Structu
   - [Assignment 5](#assignment-5)
   - [Assignment 6](#assignment-6)
   - [Assignment 7](#assignment-7)
+  - [Assignment 8](#assignment-8)
 
 
 
@@ -355,7 +356,7 @@ This README outlines the algorithms used, the steps involved, and their respecti
 The file can be found in [`Traversing Arrays`](Arrays/Traversing_array.c)*
 
  #### **Output Screenshot**  
-![Output Assignment 2](Arrays/screenshots_arrays/screenshot_traverse_arrays.jpg)
+![Output Assignment 6](Arrays/screenshots_arrays/screenshot_traverse_arrays.jpg)
 
 ---
 ### **Assignment 7**
@@ -368,4 +369,23 @@ The file can be found in [`Traversing Arrays`](Arrays/Traversing_array.c)*
 The file can be found in [`Insertion Arrays`](Arrays/Insert_arrays.c)*
 
  #### **Output Screenshot**  
-![Output Assignment 2](Arrays/screenshots_arrays/screenshot_insert_arrays.jpg) 
+![Output Assignment 7](Arrays/screenshots_arrays/screenshot_insert_arrays.jpg) 
+
+---
+## **📅 11th March 2025**
+
+📁 *Files can be found in the [`Arrays/`](Arrays/) directory in the repo.*
+
+### **Assignment 8**
+ **Deletion of elements from different positions of an array**
+ 
+ **Task:**
+ Write a C/C++ program showing how to delete an element from different positions (Beginning, Middle and End) of an array.
+ 
+*Click here to open the program file 
+The file can be found in [`Deletion Arrays`](Arrays/Deletion_arrays.c)*
+
+ #### **Output Screenshot**  
+![Output Assignment 8](Arrays/screenshots_arrays/screenshot_deletion_arrays-1.png)
+![Output Assignment 8](Arrays/screenshots_arrays/screenshot_deletion_arrays-2.png)
+---
