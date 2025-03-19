@@ -12,13 +12,12 @@ This repository contains all our weekly group assignments for the **Data Structu
 
 ---
 
-## **📂 Table of Contents (Click to Expand)**  
+## **📂 Table of Contents**  
 
 <details>
-  <summary>📌 Introduction</summary>
+  <summary>📌 ASSIGNMENT LIST (Click to Expand) </summary>
 
   - [Introduction to Data Structures and Algorithms](#introduction-to-data-structures-and-algorithms)
-  - [Output Screenshots](#output-screenshots)  
   - [Assignment 1](#assignment-1)  
   - [Assignment 2](#assignment-2)
   - [Assignment 3](#assignment-3)   
@@ -27,6 +26,7 @@ This repository contains all our weekly group assignments for the **Data Structu
   - [Assignment 6](#assignment-6)
   - [Assignment 7](#assignment-7)
   - [Assignment 8](#assignment-8)
+  - [Assignment 9](#assignment-9)
 
 
 
@@ -353,7 +353,7 @@ This README outlines the algorithms used, the steps involved, and their respecti
  Write a C/C++/JAVA code showing how to traverse an array.
 
 *Click here to open the program file 
-The file can be found in [`Traversing Arrays`](Arrays/Traversing_array.c)*
+[`Traversing Arrays`](Arrays/Traversing_array.c)*
 
  #### **Output Screenshot**  
 ![Output Assignment 6](Arrays/screenshots_arrays/screenshot_traverse_arrays.jpg)
@@ -366,7 +366,7 @@ The file can be found in [`Traversing Arrays`](Arrays/Traversing_array.c)*
  Write a C/C++/JAVA code showing how to insert an item into an array.
 
 *Click here to open the program file 
-The file can be found in [`Insertion Arrays`](Arrays/Insert_arrays.c)*
+[`Insertion Arrays`](Arrays/Insert_arrays.c)*
 
  #### **Output Screenshot**  
 ![Output Assignment 7](Arrays/screenshots_arrays/screenshot_insert_arrays.jpg) 
@@ -383,9 +383,21 @@ The file can be found in [`Insertion Arrays`](Arrays/Insert_arrays.c)*
  Write a C/C++ program showing how to delete an element from different positions (Beginning, Middle and End) of an array.
  
 *Click here to open the program file 
-The file can be found in [`Deletion Arrays`](Arrays/Deletion_arrays.c)*
+[`Deletion Arrays`](Arrays/Deletion_arrays.c)*
 
  #### **Output Screenshot**  
 ![Output Assignment 8](Arrays/screenshots_arrays/screenshot_deletion_arrays-1.png)
 ![Output Assignment 8](Arrays/screenshots_arrays/screenshot_deletion_arrays-2.png)
+
 ---
+### **Assignment 9**
+ **Merging two unsorted arrays**
+ 
+ **Task:** 
+ Write a C/C++ program showing how to merge 2 unsorted arrays.
+ 
+*Click here to open the program file 
+[`merge_unsorted_Arrays`](Arrays/merge_unsorted_arrays.c)*
+
+ #### **Output Screenshot**  
+![Output Assignment 9](Arrays/screenshots_arrays/screenshot_merge_unsorted_arrays.jpg)
