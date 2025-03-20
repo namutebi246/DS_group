@@ -64,7 +64,7 @@ Write a C program that accepts a group of N domestic animals and a group of X wi
 Your program should print N + X animals after entering each group  
 
 #### **Output Screenshot**  
-![Output Assignment 2](screenshots/Merge_array.png)  
+![Output Assignment 2](Introduction/screenshots_intro/Merge_array.png)  
 
 ---
 ## **📅 04th March 2025** 
