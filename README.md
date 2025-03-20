@@ -49,6 +49,9 @@ Each subject has four tests:
 - **Midterm Exam**  
 - **End of Term Exam**  
 
+*Click here to open the program file 
+[`Average Marks`](Introduction/average_mark.c)*
+
 ### **Output Screenshots**  
 #### **Screenshot 1**  
 ![Screen 1](Introduction/screenshots_intro/Average_marks1.png)  
@@ -61,7 +64,10 @@ Each subject has four tests:
 ### **Assignment 2**  
 ✍ **Task:**  
 Write a C program that accepts a group of N domestic animals and a group of X wild animals.
-Your program should print N + X animals after entering each group  
+Your program should print N + X animals after entering each group 
+
+*Click here to open the program file 
+[`Merge_array`](Introduction/merge_array.c)*
 
 #### **Output Screenshot**  
 ![Output Assignment 2](Introduction/screenshots_intro/Merge_array.png)  
