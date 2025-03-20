@@ -70,7 +70,7 @@ Your program should print N + X animals after entering each group
 [`Merge_array`](Introduction/merge_array.c)*
 
 #### **Output Screenshot**  
-![Output Assignment 2](Introduction/screenshots_intro/Merge_array.png)  
+![Output Assignment 2](Introduction/screenshots_intro/screenshot_merge_array.png)  
 
 ---
 ## **📅 04th March 2025** 
