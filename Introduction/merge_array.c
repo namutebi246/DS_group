@@ -7,7 +7,11 @@ int main() {
     printf("Please enter the number of wild animals: \n");
     scanf("%d", &numX);
     getchar(); // Consume the newline character left in the input buffer
-    char xWildAnimals[numX][50];
+    char (*xWildAnimals)[50] = malloc(numX * sizeof(*xWildAnimals));
+    if (xWildAnimals == NULL) {
+        fprintf(stderr, "Memory allocation failed\n");
+        return 1;
+    }
 
     // Get wild animal names
     for (i = 0; i < numX; i++) {
@@ -19,7 +23,11 @@ int main() {
     printf("Please enter the number of domestic animals: \n");
     scanf("%d", &numY);
     getchar(); // Consume the newline character left in the input buffer
-    char nDomesticAnimals[numY][50];
+    char (*nDomesticAnimals)[50] = malloc(numY * sizeof(*nDomesticAnimals));
+    if (nDomesticAnimals == NULL) {
+        fprintf(stderr, "Memory allocation failed\n");
+        return 1;
+    }
 
     // Get domestic animal names
     for (i = 0; i < numY; i++) {
@@ -29,7 +37,11 @@ int main() {
 
     // Merge both arrays into one
     int totalAnimals = numX + numY;
-    char mergedAnimals[totalAnimals][50];
+    char (*mergedAnimals)[50] = malloc(totalAnimals * sizeof(*mergedAnimals));
+    if (mergedAnimals == NULL) {
+        fprintf(stderr, "Memory allocation failed\n");
+        return 1;
+    }
 
     // Copy wild animals to merged array
     for (i = 0; i < numX; i++) {
@@ -43,9 +55,15 @@ int main() {
 
     // Print merged array
     printf("\nList of all animals:\n");
+    // Print merged array
+    // Print merged array
     for (i = 0; i < totalAnimals; i++) {
         printf("%d. %s", i + 1, mergedAnimals[i]);
     }
 
-    return 0; 
+    free(xWildAnimals); // Free allocated memory
+    free(nDomesticAnimals); // Free allocated memory
+    free(mergedAnimals); // Free allocated memory
+    return 0;
 }
+
