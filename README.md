@@ -427,8 +427,8 @@ This README outlines the algorithms used, the steps involved, and their respecti
 [`Stack operations`](Stacks/stack_operation_3.cpp)*
 
  #### **Output Screenshot**  
-![Output Assignment 10](Stacks\screenshots_stacks/Screenshot-stacks-1.png)
-![Output Assignment 10](Stacks\screenshots_stacks/Screenshot-stacks-2.png)
-![Output Assignment 10](Stacks\screenshots_stacks/Screenshot-stacks-3.png)
+![Output Assignment 10](Stacks/screenshots_stacks/Screenshot-stacks-1.png)
+![Output Assignment 10](Stacks/screenshots_stacks/Screenshot-stacks-2.png)
+![Output Assignment 10](Stacks/screenshots_stacks/Screenshot-stacks-3.png)
 
 ---
