@@ -27,6 +27,7 @@ This repository contains all our weekly group assignments for the **Data Structu
   - [Assignment 7](#assignment-7)
   - [Assignment 8](#assignment-8)
   - [Assignment 9](#assignment-9)
+  - [Assignment 10](#assignment-10)
 
 
 
@@ -407,3 +408,27 @@ This README outlines the algorithms used, the steps involved, and their respecti
 
  #### **Output Screenshot**  
 ![Output Assignment 9](Arrays/screenshots_arrays/screenshot_merge_unsorted_arrays.jpg)
+
+---
+## **📅 13th March 2025**
+
+📁 *Files can be found in the [`Stacks/`](Stacks/) directory in the repo.*
+
+### **Assignment 10**
+ **Operations on stacks**
+ 
+ **Task:**
+ Write C/C++ code showing how to  
+	1-push an element into a stack.(Use a stack of friends)
+	2-pop a stack (Use scanf for number of Friends & their names *and finally pass it to a constructor)
+	3-peek/peep a stack(Using the friends stack from the push assignment)
+ 
+*Click here to open the program file 
+[`Stack operations`](Stacks/stack_operation_3.cpp)*
+
+ #### **Output Screenshot**  
+![Output Assignment 10](Stacks\screenshots_stacks/Screenshot-stacks-1.png)
+![Output Assignment 10](Stacks\screenshots_stacks/Screenshot-stacks-2.png)
+![Output Assignment 10](Stacks\screenshots_stacks/Screenshot-stacks-3.png)
+
+---
